@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-container{
+    display: flex;
+    background-color: rgb(243, 228, 238);
+    justify-content: space-around;
+    align-items: center;
+    height: 58vh;
+}
+.logo-img{
+    height: 426px;
+    width: 400px;
+}
+.title{
+    width: bold;
+    font-size: 45px;
+}
+
+.prescription{
+    color:rgb(241, 77, 77);
+}.discription{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:rgb(104, 103, 103);
+}
+.button{
+    background-color: rgb(241, 77, 77);
+    padding: 15px 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.button-hover{
+        color: blue;
+}
+.nav-total{
+    padding: 30px 30px;
+}
