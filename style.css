@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .nav-container{
     display: flex;
@@ -8,10 +9,11 @@
     justify-content: space-around;
     align-items: center;
     height: 58vh;
+    width: 100%;
 }
 .logo-img{
     height: 426px;
-    width: 400px;
+    width: 80%;
 }
 .title{
     width: bold;
@@ -34,13 +36,11 @@
     font-size: 18px;
 }
 .icon{
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 230px;
     align-items: center;
 }
-.button-hover{
-        color: blue;
-}
+
 .nav-total{
     padding: 30px 30px;
 }
@@ -49,23 +49,30 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
+    gap: 80px;
+    width: 70%;
 
-    margin: 150px;
-
-    
-    border-radius: 15px 50px; 
 }
 .box1 {
     background-color: gray;
-    border-radius: top 50px;
+    border-radius: 130px 130px 0px 0px;
 }
-.box2 {background-color: gray;}
-.box3{background-color: gray;}
+.box2 {
+    background-color: gray;
+    border-radius: 130px 130px 0px 0px;
+}
+.box3{
+    background-color: gray;
+    border-radius: 130px 130px 0px 0px;
+}
 
 .bonus-container{
     align-items: center;
     height: 16vh;
     text-align: center;
+    width: 100%;
+    align-items: center;
 
     
     
@@ -88,6 +95,7 @@
     margin:60px 60px 60px 60px ;
 
 }
+.text
 .logo-img2{
     height: 350px;
     width: 300px;
@@ -118,23 +126,40 @@
     gap: 5px;
 
 }
-.lastbanner{
-    height: 500px;;
-}
 
 .four-pic{
     display:flex;
-    height: 20px;
-    width: 20px;
+    height: 50vh;
+    width: 80%;
     justify-content: space-between;
     gap:15px;
     margin-left: 70px;
   
 
 }
-.top-footer{
-    height: 150vh;
-    width: 200px;
-    background-image: url(./flower-shop-assignment/Flower Asset/Rectangle 9.png);
-    margin:botton;
+
+    
+    
+
+.instragram{
+    width: 80%;
+    height: 60vh;
+    background-image: url(../Rectangle\ 9.png);
+    margin:40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    margin: 20px;
+    padding: 20px;
+}
+.footer{
+    width: 100%;
+    height: 30vh;
+    padding: 30px 0px;
+    background-color: rgb(33, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
